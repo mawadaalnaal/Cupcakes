@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(خلفية.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navbar a {
+    color: rgb(39, 0, 35);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(67, 0, 58, 0.5); /* تسويد خلفية المربع لجعل النص بارزاً */
+    width: 90%; /* العرض أقل من عرض الشاشة بالكامل */
+    margin: 0 auto; /* لتوسيط العنصر أفقياً */
+    min-height: 280px; /* التحكم في طول العنصر */
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    background-color: #ff40c3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black; /* اللون الأساسي للرابط */
+    padding: 10px;
+    transition: color 0.3s ease; /* يضيف تأثيرًا سلسًا للتغير */
+}
+
+.navbar a:hover {
+    background-color:  #ff40c3; /* اللون الزهري عند تمرير الماوس */
+}
